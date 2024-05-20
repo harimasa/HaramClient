@@ -3,32 +3,25 @@
 	"id": "haramclient",
 	"version": "${version}",
 	"name": "HaramClient",
-	"description": "[ENG] The mod adds 2 prohibitions of Islam, condemning or outright banning certain actions during the game.\nEating pork is completely forbidden, and fighting is condemned, as well as the command /koran, including a small passage of the Koran\n\n[RUS] Мод добавляет 2 запрета Ислама, осуждая или вовсе запрещая определенные действия во время игры.\nПоедание свинины полностью запрещено, а драться осуждается, так же есть команда /koran, включающая небольшой отрывок Корана\nContact Information:\n- Telegram: @yxkaieqw\n- Discord: .harimasa",
+	"description": "[ENG] The mod adds 2 prohibitions of Islam, condemning or outright banning certain actions during the game.\nEating pork is completely forbidden, and fighting is condemned, as well as the command /koran, including a small passage of the Koran\n\n[RUS] Мод добавляет 2 запрета Ислама, осуждая или вовсе запрещая определенные действия во время игры.\nПоедание свинины полностью запрещено, а драться осуждается, так же есть команда /koran, включающая небольшой отрывок Корана",
 	"authors": [
 		"Mattgyve1990"
 	],
-	"contact": {
-		"homepage": "https://modrinth.com/mod/haramclient",
-		"sources": "https://github.com/HeMatik/HaramClient",
-		"issues": "https://github.com/HeMatik/HaramClient/issues"
-	},
 	"license": "All-Right-Reserved",
 	"icon": "assets/haramclient/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": ["ru.matt.HaramClient"]
+		"main": ["ru.matt.HaramClient"],
+		"modmenu": ["ru.matt.api.modmenu.HaramLoad"]
 	},
 	"depends": {
 		"fabricloader": ">=0.15.7",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*",
-		"modmenu": ">=4.1.0"
+		"modmenu": ">=7.2.2"
 	},
 	"suggests": {
 		"another-mod": "*"
-	},
-	"Need": {
-		"modmenu": "*"
 	}
 }

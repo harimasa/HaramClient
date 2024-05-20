@@ -1,0 +1,6 @@
+{
+  "haramclient.title": "Haram Client",
+  "haramclient.enabledEat": "Блокировать еду?",
+  "haramclient.enabledKill": "Спамить при ударе?",
+  "haramclient.key": "Бинд для открытия конфиг'а"
+}

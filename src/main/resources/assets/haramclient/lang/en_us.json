@@ -1,0 +1,6 @@
+{
+  "haramclient.title": "Haram Client",
+  "haramclient.enabledEat": "A food ban?",
+  "haramclient.enabledKill": "Spam on a hit?",
+  "haramclient.key": "Keybind for opening the config"
+}
